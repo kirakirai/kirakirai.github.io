@@ -23,21 +23,12 @@ a {
   background-color: white;
 }
   .container {
-    display: flex;
-    flex-flow: row wrap;
+  background-color: white;
+  float: right;
 }
-
-.header, .blog, .sidebar, .footer {
-    flex-grow: 1;
-    flex-basis: 100%;
+  .sidebar {
     background-color: white;
-}
-}
-
-@media all and (min-width: 800px) {
-  /* On bigger screens, sidebar now only gets 1/4 of space */
-  .blog { flex: 3 0px; }
-  .sidebar { flex: 1 0px; }
+    float: left;
 }
   
 </style>
@@ -45,10 +36,6 @@ a {
 <body>
 <h1 class="center">☁ cosmicatcher ☁</h1>
 <div class="container">
-  <div class="header">
-    <h1>oi, tudo bem?</h1>
-  </div>
-  <div class="blog">
 <h3>blog, projetos, organização.</h3>
   <p>vou usar esse espaço pra desabafar, escrever, postar desenhos que eu bem entender, e publicar meus projetos, vai ter um link pra eles no menu ao lado.</p>
       <p>[segunda, 12 de agosto de 2019]</p>
