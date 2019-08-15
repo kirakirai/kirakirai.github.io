@@ -25,6 +25,7 @@ a {
   .container {
     display: flex;
     flex-flow: row wrap;
+    float: right;
 }
 
 .header, .blog, .sidebar, .footer {
@@ -34,7 +35,7 @@ a {
 }
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 800px) {
   /* On bigger screens, sidebar now only gets 1/4 of space */
   .blog { flex: 3 0px; }
   .sidebar { flex: 1 0px; }
